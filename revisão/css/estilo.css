@@ -1,0 +1,99 @@
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(red,black)
+
+}
+
+.central{
+    height: 500px;
+    width: 500px;
+    background: rgba(243, 243, 243, 0.192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+}
+.central #distancia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.central #distancia input{
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    height: 25px;
+    width: 250px;
+    font-weight: bold;
+}
+
+
+.central #consumo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+
+}
+
+.central #consumo input{
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    height: 25px;
+    width: 250px;
+    font-weight: bold;
+}
+
+
+
+.central #preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-weight: bold;
+}
+
+.central #preco input{
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    height: 25px;
+    width: 250px;
+    font-weight: bold;
+}
+
+.central #btn{
+    display: flex;
+    width: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    
+}
+.central #btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 75px;
+    height: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    font-weight: bold; 
+}
+
+.central #resultado span{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
